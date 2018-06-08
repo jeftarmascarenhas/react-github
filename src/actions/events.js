@@ -10,7 +10,8 @@ export const getEvents = events => ({
       site: 'http://www.google.com.br',
       tags: ['JavaScript', 'React', 'Redux'],
       location: {
-        uf: 'PE',
+        country: 'Brasil',
+        state: 'PE',
         city: 'Recife',
         address: 'Av. Miguel Arrais',
         number: 13
@@ -28,7 +29,8 @@ export const getEvents = events => ({
       site: 'http://www.youtube.com.br',
       tags: ['Nodejs', 'React', 'Redux'],
       location: {
-        uf: 'PE',
+        country: 'Brasil',
+        state: 'PE',
         city: 'Recife',
         address: 'Av. Miguel Arrais',
         number: 13

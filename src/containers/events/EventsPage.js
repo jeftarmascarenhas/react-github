@@ -4,6 +4,9 @@ import { bindActionCreators } from 'redux';
 
 import * as EventsActions from '../../actions/events';
 
+import ListEvents from '../../components/events/ListEvents';
+import BannerEvents from '../../components/events/BannerEvents';
+
 class EventsPage extends Component {
   componentDidMount() {
     this.props.getEvents();
@@ -12,18 +15,11 @@ class EventsPage extends Component {
     const { events } = this.props;
     return (
       <div>
+        <BannerEvents />
         <h2>Event list</h2>
-        {
-          events.map(event => {
-            return (
-              <article key={ event.id }>
-                <h2>{ event.title }</h2>
-                <p>{ event.resume }</p>
-                <a href={ event.site }>Site</a>
-              </article>
-            );
-          })
-        }
+        <ListEvents
+          events={events}
+        />
       </div>
     )
   }

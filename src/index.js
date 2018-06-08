@@ -6,6 +6,7 @@ import store from './store';
 
 import './assets/css/reset.css';
 import 'typeface-roboto';
+import 'flexboxgrid/css/flexboxgrid.css';
 import './assets/css/index.css';
 import App from './containers/app/App';
 import registerServiceWorker from './registerServiceWorker';

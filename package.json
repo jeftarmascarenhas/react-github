@@ -4,9 +4,11 @@
   "private": true,
   "homepage": "https://jeftarmascarenhas.github.io/react-github",
   "dependencies": {
+    "flexboxgrid": "^6.3.1",
     "gh-pages": "^1.2.0",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
+    "react-notification-system": "^0.2.17",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
