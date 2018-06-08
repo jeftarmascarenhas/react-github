@@ -1,0 +1,27 @@
+{
+  "date": "2018-06-08 00:00",
+  "content": [
+    {
+      "title": "Title",
+      "resume": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum",
+      "site": "http://www.google.com.br",
+      "tags": [
+        "JavaScript",
+        "React",
+        "Redux"
+      ],
+      "location": {
+        "country": "Brasil",
+        "state": "PE",
+        "city": "Recife",
+        "address": "Av. Miguel Arrais",
+        "number": "123"
+      },
+      "hours": {
+        "start": "06:30 PM",
+        "end": "09:00 PM"
+      },
+      "eventClose": "2018-06-20 08:00:00"
+    }
+  ]
+}
