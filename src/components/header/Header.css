@@ -1,28 +1,6 @@
-.events-header {
-  background-color: var(--header-bg);
-  padding: 30px 40px;
-  color: #333;
-}
+.header {
 
-.events-header__logo {
-  height: 45px;
 }
-
-.events-header__menu {
-  position: relative;
+.header-logo {
+  max-width: 50px; 
 }
-
-.events-header__nav {
-  position: absolute;
-  right: 0;
-  display: flex;
-  flex-direction: column;
-  padding: 2em;
-  background-color: #f9f9f9;
-}
-
-.events-header__nav a {
-  color: var(--default-color-text);
-  margin-bottom: 0.7em;
-}
-

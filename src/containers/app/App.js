@@ -1,17 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import Header from '../../components/header/Header';
-import Sidebar from '../../components/common/Sidebar';
+import Screens from '../../components/common/Screens';
 
-class App extends Component {
-  render() {
-    return (
-      <section className="App">
-        <Header />
-        <Sidebar />
-      </section>
-    );
-  }
-}
+const App = () => (
+  <main className="main">
+    <Header />
+    <Screens />
+  </main>
+)
 
 export default App;
