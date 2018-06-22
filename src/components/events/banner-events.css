@@ -1,4 +1,46 @@
 .events-banner {
-  font-size: 4.5em;
-  padding: 3em;
+  font-size: 2.5em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.events-banner__title {
+  font-size: 1.4em;
+  font-weight: 700;
+  position: relative;
+  line-height: 1.3;
+  letter-spacing: 20px;
+}
+
+.events-banner__title-featured:first-letter {
+  font-size: 2em;
+  position: relative;
+  top: -1em;
+  float: left;
+}
+
+.events-banner__logo {
+  position: absolute;
+  top: -3rem;
+  left: -2rem;
+  height: calc(100vh - 15px);
+}
+
+.events-banner__logo-wrapper {
+  position: absolute;
+  height: calc(100vh - 50px);
+  width: 50%;
+  padding: 0 2em;
+  top: 0;
+  left: 0;
+  background-color: var(--banner-bg);
+}
+
+@media(min-width: 768px) {
+  .events-banner {
+    font-size: 2.5em;
+  }
 }

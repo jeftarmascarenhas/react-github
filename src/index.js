@@ -8,7 +8,7 @@ import './assets/css/reset.css';
 import 'typeface-roboto';
 import 'flexboxgrid/css/flexboxgrid.css';
 import './assets/css/index.css';
-import App from './containers/app/App';
+import App from './containers/app/App.jsx';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(

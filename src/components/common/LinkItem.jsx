@@ -7,7 +7,7 @@ const LinkItem = ({ to, className, label }) => (
   <Link to={to} className={className}>{label}</Link>
 );
 
-LinkItem.PropTypes = {
+LinkItem.propTypes = {
   to: PropTypes.string,
   className: PropTypes.string,
   label: PropTypes.string,

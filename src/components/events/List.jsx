@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ListEvents = ({ events }) => (
+const List = ({ events }) => (
   events.map(event => {
     return (
       <article key={ event.id }>
@@ -12,4 +12,4 @@ const ListEvents = ({ events }) => (
   })
 );
 
-export default ListEvents;
+export default List;

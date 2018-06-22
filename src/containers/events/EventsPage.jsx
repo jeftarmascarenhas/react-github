@@ -5,8 +5,8 @@ import NotificationSystem from 'react-notification-system';
 
 import * as EventsActions from '../../actions/events';
 
-import ListEvents from '../../components/events/ListEvents';
-import BannerEvents from '../../components/events/BannerEvents';
+import ListEvents from '../../components/events/List';
+import BannerEvents from '../../components/events/Banner'
 
 class EventsPage extends Component {
   constructor(props) {

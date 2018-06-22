@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import logoSrc from '../../images/logo.svg';
+import LogoBrand from '../../images/logo.svg';
 
 const Logo = ({ className, alt }) => (
-  <img src={logoSrc} className={className} alt={alt} />
+  <img src={LogoBrand} className={className} alt={alt} />
 );
 
-Logo.PropTypes = {
+Logo.propTypes = {
   className: PropTypes.string,
   alt: PropTypes.string,
 };
